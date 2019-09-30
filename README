@@ -1,0 +1,93 @@
+# ==================================================================
+# FileMan - website management utility
+#
+#   Website  : http://gossamer-threads.com/
+#   Support  : http://gossamer-threads.com/scripts/support/
+#   CVS Info :                          
+#   Revision : $Id: README,v 1.4 2008/11/22 00:57:25 brewt Exp $
+#
+# Copyright (c) 2008 Gossamer Threads Inc.  All Rights Reserved.
+# Redistribution in part or in whole strictly prohibited. Please
+# see LICENSE file for full details.
+# ==================================================================
+
+TABLE OF CONTENTS
+
+    1. Welcome
+        1.1 About the Script
+        1.2 System Requirements
+    2. Installation
+    3. Support
+
+1. Welcome
+=========================================================================
+
+1.1 About the Script
+-------------------------------------------------------------------------
+FileMan is a powerful website management utility. It allows you to easily
+manage files in your website from the comfort of your browser. It also provides
+easy to use front ends for tasks such as creating tar files, extracting tar
+files, running system commands, search and replace over files, and much more!
+
+For the full list of features, and details, please visit:
+
+    http://www.gossamer-threads.com/scripts/
+
+1.2 System Requirements
+-------------------------------------------------------------------------
+FileMan is 100% Perl and will run on a wide variety of platforms including
+Linux, Windows 98/NT/2000, BSD, Solaris and much more. System requirements are:
+
+1. A current version of Perl 5 (version 5.004_04 or better required).
+2. Optional: Compress::Zlib module from CPAN. If you install this, you will be
+   able to create and extract from gziped (.gz) files.
+3. Optional: Archive::Zip module. This will be used to create and extract zip
+   files.
+
+2. Installation
+=========================================================================
+FileMan installation is very straight forward.
+
+To install, please follow the following steps:
+
+1. Unarchive the fileman-3.x.x.tar.gz file. If you are using Windows, you can
+   use an file archiver program such as WinZip or PowerArchiver to unarchive
+   .tar.gz files.
+
+2. FTP in ASCII mode the install.cgi script to your cgi-bin directory
+   on your webserver. Set the permissions of this file to 755 (rwxr-xr-x)
+   if on a unix system.
+
+3. FTP in BINARY mode the install.dat file to the same directory on your
+   webserver.
+
+4. You can now either install from your browser, or from shell. If you
+   choose from the browser, all your program files will be owned by the
+   web server and you will need to use FileMan to remove it.
+
+4a. If you are installing from the web, simply go to:
+
+       http://yoursite.com/cgi-bin/install.cgi
+
+   and follow the prompts which will guide you the rest of the way.
+
+4b. If you are installing from telnet/shell, simply go to the directory
+   where you placed the file and then run the install.cgi. You can do this
+   by just typing:
+
+       ./install.cgi
+
+           or
+
+       perl install.cgi
+
+5. Once the script has been successfully unarchived, you should now
+   just go to the URL mentioned and you will be ready to go!
+
+3. Support
+=========================================================================
+If you run into any problems, please visit our online support forum at:
+
+    http://gossamer-threads.com/perl/forum/
+
+Gossamer Threads Inc.
